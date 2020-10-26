@@ -1,0 +1,9 @@
+<h1>Ada's Technical Books!</h1>
+
+<%= "I love being a student during a pandemic".upcase %>
+
+<ul>
+  <% @books.each do |book| %>
+    <li> <%= book[:title] %> by <%= book[:author] %> </li>
+  <%end%>
+</ul>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
   <head>
     <title>AdaBooks</title>
@@ -9,7 +9,26 @@
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
+  <header>
+    <section class="title"><h3>Ada  Books</h3></section>
+
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/books">Books List</a></li>
+        <li>N ew Book</li>
+      </ul>
+    </nav>
+  </header>
+
   <body>
-    <%= yield %>
+    <main>
+      <%= yield %>
+    </main>
   </body>
+
+  <footer>
+    <p>Copyright SEM 2020</p>
+  </footer>
+
 </html>
