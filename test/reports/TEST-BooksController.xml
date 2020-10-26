@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="BooksController" filepath="/Users/SophieMessing/Ada/Classroom/rails/ada-books/test/controllers/books_controller_test.rb" skipped="0" failures="0" errors="0" tests="1" assertions="1" time="4.95407300000079">
+    <testcase name="test_0001_can get books path" lineno="4" classname="BooksController" assertions="1" time="4.95407300000079">
+    </testcase>
+  </testsuite>
+</testsuites>
